@@ -1,0 +1,48 @@
+.col {
+    padding: 20px;
+    background: rgb(150,27,36);
+    background: radial-gradient(circle, rgba(150,27,36,1) 0%, rgba(1,0,1,1) 100%);
+    border: 1px solid rgb(65, 65, 65);
+    height: 72px;
+    cursor: pointer;
+  }
+  
+  .marking {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .marking-x {
+    color: rgb(6, 180, 238);
+  }
+  
+  .marking-o {
+    color: rgb(77, 1, 1);
+  }
+  
+  .alert {
+    margin-top: 40px;
+    text-align: center;
+    display: none;
+  }
+  
+  .board {
+    margin: 0 44%;
+    max-width: 190px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #ai {
+    background: #d2f50c;
+  }
+  
+  #container {
+    width: 600px;
+    height: 400px;
+  }
